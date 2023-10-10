@@ -1,0 +1,43 @@
+.borde-select {
+    border-bottom: 1px solid darkgray;
+}
+
+.alert-message{
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 3px solid #eee;
+  }
+.alert-message h4
+{
+margin-top: 0;
+margin-bottom: 5px;
+}
+.alert-message p:last-child
+{
+margin-bottom: 0;
+}
+
+.alert-message-info
+{
+background-color: #D0EDF5;
+    border-color: #5bc0de;
+}
+
+
+.btn-custom {
+    background-color: #007bff; /* Cambia el color de fondo del botón según tu preferencia */
+    color: #fff; /* Cambia el color del texto del botón según tu preferencia */
+    /* Agrega otros estilos de botón personalizados aquí */
+}
+
+.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn.dropdown-toggle-split:first-child, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    color: #000000;
+}
+
+button.btn.btn-secondary.buttons-print{
+    color: #000000;
+}
+
+table.dataTable.dataTable_width_auto {
+    width: auto;
+  }
